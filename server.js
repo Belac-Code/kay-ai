@@ -3,7 +3,7 @@ import path from "node:path";
 import { readFile, writeFile, mkdir } from "node:fs/promises";
 import { randomUUID } from "node:crypto";
 import { fileURLToPath } from "node:url";
-import { upload, saveUpload, getUpload, uploadDir } from "./uploads.js";
+import { upload, saveUpload, getUpload, uploadDir } from "./src/uploads.js";
 import { chatWithProvider, configuredProviders, generateImage, transcribeAudio } from "./src/providers.js";
 import { initMemory, listMemory, addMemory, editMemory, deleteMemory, profilePrompt } from "./src/memory.js";
 import { createPdf, createDocx } from "./src/exports.js";
