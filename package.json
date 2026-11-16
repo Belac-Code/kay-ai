@@ -9,7 +9,7 @@
                     "dev":  "node --watch server.js"
                 },
     "engines":  {
-                    "node":  ">=20.16.0"
+                    "node": ">=20.16.0"
                 },
     "dependencies":  {
                          "docx":  "^9.5.1",
