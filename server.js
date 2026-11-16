@@ -330,8 +330,8 @@ function httpError(status, message) {
 
 const memoryMode = (await listMemory()).mode;
 if (process.argv[1] && path.resolve(process.argv[1]) === fileURLToPath(import.meta.url)) {
-  app.listen(port, "127.0.0.1", () => {
-    console.log("KAY is running at http://127.0.0.1:" + port + " (memory: " + memoryMode + ")");
+  app.listen(port, "0.0.0.0", () => {
+    console.log("KAY is running at http://0.0.0.0:" + port + " (memory: " + memoryMode + ")");
     if (!configuredProviders().length) console.log("Add a provider key to .env to enable chat.");
   });
 }
