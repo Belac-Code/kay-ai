@@ -1,0 +1,26 @@
+﻿{
+    "name":  "kay-assistant",
+    "version":  "0.2.0",
+    "private":  true,
+    "description":  "KAY personal multimodal AI assistant",
+    "type":  "module",
+    "scripts":  {
+                    "start":  "node server.js",
+                    "dev":  "node --watch server.js"
+                },
+    "engines":  {
+                    "node":  "\u003e=20.16.0"
+                },
+    "dependencies":  {
+                         "docx":  "^9.5.1",
+                         "express":  "^5.2.1",
+                         "bcryptjs": "^3.0.2",
+                         "jsonwebtoken": "^9.0.2",
+                         "mammoth":  "^1.10.0",
+                         "multer":  "^2.0.2",
+                         "mongoose": "^8.19.1",
+                         "pdf-parse":  "^2.4.5",
+                         "pdfkit":  "^0.17.2",
+                         "pg":  "^8.16.3"
+                     }
+}
