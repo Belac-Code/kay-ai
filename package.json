@@ -9,11 +9,11 @@
                     "dev":  "node --watch server.js"
                 },
      
-                "engines": {
+               "engines": {
                   "node": ">=20.16.0"
                 },
                      
-    "dependencies":  {
+    "dependencies": {
                          "docx":  "^9.5.1",
                          "express":  "^5.2.1",
                          "bcryptjs": "^3.0.2",
